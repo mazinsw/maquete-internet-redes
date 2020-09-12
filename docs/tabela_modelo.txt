@@ -1,0 +1,20 @@
+            destino
+ origem | u v w x y z
+--------|------------
+       u| ! v x x x x
+       v| . ! w x x x
+       w| . . ! y y y
+       x| . . . ! y y
+       y| . . . . ! z
+       z| . . . . . !
+
+     ou
+
+           destino
+ origem | v w x y z
+--------|----------
+       u| v x x x x
+       v| ! w x x x
+       w| . ! y y y
+       x| . . ! y y
+       y| . . . ! z

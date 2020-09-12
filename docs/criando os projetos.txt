@@ -1,0 +1,49 @@
+Abra o eclipse clique em File->Switch Workspace->Other
+, cole o caminho da pasta trunk e clique em Ok
+
+Crie um projeto com o nome Classes
+Vai aparecer vários erros, pois o JUnit não está adicionado como biblioteca
+Abra o arquivo TestAverage.java e posicione o mouse sobre a importação org.junit
+quando aparecer um popup clique em 'Fix project setup' e Ok
+
+Crie um projeto com o nome Servidor
+
+Clique com o botão direito sobre ele
+e clique em 'Build Path'->Link Source...'
+na caixa de texto 'Folder name:' digite server
+na caixa de texto 'Linked folder location:' cole o caminho da pasta src
+do projeto Classes
+
+Crie um projeto com o nome Host
+
+Clique com o botão direito sobre ele
+e clique em 'Build Path'->Link Source...'
+na caixa de texto 'Folder name:' digite host
+na caixa de texto 'Linked folder location:' cole o caminho da pasta src
+do projeto Classes
+após essa etapa clique novamente com o botão direito sobre o projeto
+e clique em 'Build Path'->Link Source...'
+na caixa de texto 'Folder name:' digite panel
+na caixa de texto 'Linked folder location:' cole o caminho da pasta panel
+do projeto Servidor
+
+
+Crie um projeto com o nome Roteador
+
+Clique com o botão direito sobre ele
+e clique em 'Build Path'->Link Source...'
+na caixa de texto 'Folder name:' digite router
+na caixa de texto 'Linked folder location:' cole o caminho da pasta src
+do projeto Classes
+após essa etapa clique novamente com o botão direito sobre o projeto
+e clique em 'Build Path'->Link Source...'
+na caixa de texto 'Folder name:' digite panel
+na caixa de texto 'Linked folder location:' cole o caminho da pasta panel
+do projeto Servidor
+clique novamente com o botão direito sobre o projeto
+e clique em 'Build Path'->Link Source...'
+na caixa de texto 'Folder name:' digite table
+na caixa de texto 'Linked folder location:' cole o caminho da pasta table
+do projeto Host
+
+
